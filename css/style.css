@@ -1,0 +1,19 @@
+header {
+font-family:"Roboto";
+color:#F5F0ED;
+text-align: center;
+}
+
+body {
+background-color:#BAD7E0;
+}
+
+#hero {
+text-align: center;
+}
+
+#hobbies {
+    border-style: solid;
+    border-color:#F5F0ED;
+}
+
