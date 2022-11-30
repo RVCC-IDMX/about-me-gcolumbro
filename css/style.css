@@ -5,7 +5,7 @@ text-align: center;
 }
 
 body {
-background-color:#BAD7E0;
+background-color:#F7F7F7;
 }
 
 #hero {
@@ -17,7 +17,7 @@ text-align: center;
     flex-direction: column; 
     align-items: center;
     border-style: solid;
-    border-color:#F5F0ED;
+    border-color:#7DA2A9;
 }
 
 img {
@@ -25,7 +25,7 @@ img {
 }
 
 fieldset{
-    border: 2px solid black;
+    border: 2px solid #7DA2A9;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 1rem 1rem;
@@ -33,7 +33,7 @@ fieldset{
 
 #contact input, #contact textarea, #contact select, #contact button{
     font-size: 1rem;
-    border: white 2px solid;
+    border: #7DA2A9 2px solid;
     border-radius: 1rem 1rem;
 }
 
