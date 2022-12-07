@@ -24,7 +24,7 @@ main{
 /* navbar */
 
 .navbar{
-    background-color: #7DA2A9;
+    background-color: #F5F0ED;;
     color: black;
     display: flex;
     flex-direction: column;
@@ -96,4 +96,5 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
+
 }
