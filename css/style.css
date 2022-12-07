@@ -5,23 +5,12 @@ text-align: center;
 }
 
 body {
-background-color:#F7F7F7;
-}
-
-#hero {
-text-align: center;
-}
-
-#hobbies {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    border-style: solid;
-    border-color:#7DA2A9;
+background-color:#7DA2A9;
 }
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 fieldset{
@@ -29,6 +18,94 @@ fieldset{
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 1rem 1rem;
+}
+
+#hero{
+    flex: auto;
+    text-align: center;
+    font-size:20pt;
+    color: black;
+    padding: 10px;
+    margin: 2rem
+    z-index auto;
+    background-color: #F5F0ED;
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+}
+
+#hero img{
+    border-radius: 50%;
+    max-width: 200px;}
+
+#hero p{
+    font-size: larger;
+}
+
+#hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: #F5F0ED;
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+}
+
+#gallery {
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+    background-color: #F5F0ED;
+}
+
+#gallery img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#literature {
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+    background-color: #F5F0ED;
+    text-align: center;
+}
+
+#literature div{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+#myVideo {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+    background-color: #F5F0ED;
+}
+
+#contact {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: #F5F0ED;
+    border: 3.5px solid ;
+    margin-bottom: 2rem;
+}
+
+iframe{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+
+#formElements{
+    display: grid;
+    row-gap: .5em;
 }
 
 #contact input, #contact textarea, #contact select, #contact button{
@@ -56,7 +133,7 @@ fieldset{
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        margin-left: 1rem;
+        margin: auto;
     }
     #literature div {
         max-width:100%;
@@ -71,10 +148,16 @@ fieldset{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #gallery hr {
+    #gallery hr h2 {
         display: none;
         grid-column: 1/-1;
         display: block;
     }
+
+    figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
 }
 
