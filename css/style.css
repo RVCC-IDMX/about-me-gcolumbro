@@ -48,6 +48,8 @@ fieldset{
     background-color: #F5F0ED;
     border: 3.5px solid ;
     margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #gallery {
@@ -86,6 +88,7 @@ fieldset{
     border: 3.5px solid ;
     margin-bottom: 2rem;
     background-color: #F5F0ED;
+    padding: 1em;
 }
 
 #contact {
@@ -95,6 +98,7 @@ fieldset{
     background-color: #F5F0ED;
     border: 3.5px solid ;
     margin-bottom: 2rem;
+    padding: 1em;
 }
 
 iframe{
@@ -132,8 +136,9 @@ iframe{
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: auto;
+        text-align: center;
     }
     #literature div {
         max-width:100%;
