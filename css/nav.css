@@ -15,6 +15,7 @@ body{
     margin: 0;
 }
 
+
 /* add some padding back to rest of page */
 
 main{
@@ -31,6 +32,9 @@ main{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
+/* updated navbar */
+
 .nav__toggle{
     position: absolute;
     cursor: pointer;
@@ -43,8 +47,7 @@ main{
 }
 
 .menu{
-    margin-right: .5rem;
-    margin-top: .75rem;
+    margin: 2rem 1rem 0rem 0rem;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -54,12 +57,13 @@ main{
     display: none;
 }
 
-
 #nav__checkbox:checked ~ .navbar-links li{
     display: block;
 }
 
 #nav__checkbox:checked ~ label.nav__toggle .close{
+    margin-right: 1rem;
+    margin-top: 2rem;
     display: block;
 }
 
@@ -72,6 +76,7 @@ main{
 .logo{
     display: flex;
     align-items: center;
+    justify-content: start;
 }
 
 .logo img{
@@ -87,9 +92,9 @@ main{
 
 .navbar-links li{
     list-style: none;
-    display: block;
     padding: 0.5em;
     text-align: center;
+    display: none;
 }
 
 /*  
@@ -98,7 +103,7 @@ main{
 */
 
 .navbar-links a{
-    color: F5F0ED;
+    color: black;
     background-attachment: white;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
@@ -106,6 +111,7 @@ main{
     text-decoration: none;
     display: inline-block;
 }
+
 
 .navbar-links a:hover,
 .navbar-links a:focus{
@@ -136,9 +142,8 @@ such that no text wraps
     }
 
     .navbar ul{
-        display: flex;
         display: block;
+        display: flex;
         justify-content: space-between;
     }
-
 }
